@@ -1,7 +1,8 @@
 PATH
   remote: .
   specs:
-    immosquare-rubocop (0.1.0)
+    immosquare-rubocop (0.1.1)
+      rubocop (~> 1.56.3)
 
 GEM
   remote: https://rubygems.org/
@@ -42,10 +43,8 @@ PLATFORMS
   x86_64-darwin-22
 
 DEPENDENCIES
-  bundler
   immosquare-rubocop!
   rake
-  rubocop
 
 BUNDLED WITH
    2.3.23
