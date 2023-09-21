@@ -5,5 +5,6 @@ gemspec
 group :development do
   gem "bundler"
   gem "rake"
-  gem "rubocop", :require => false
 end
+
+gem "rubocop", :require => false
