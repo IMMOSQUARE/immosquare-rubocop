@@ -1,8 +1,12 @@
+require_relative "lib/version"
+
+
+
 Gem::Specification.new do |spec|
   spec.platform      = Gem::Platform::RUBY
   spec.license       = "MIT"
   spec.name          = "immosquare-rubocop"
-  spec.version       = "0.1.1"
+  spec.version       = ImmosquareRubocop::VERSION.dup
   
   spec.authors       = ["IMMO SQUARE"]
   spec.email         = ["jules@immosquare.com"]
