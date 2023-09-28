@@ -9,7 +9,6 @@ AllCops:
 Metrics: 
   Enabled: false                        # On désactive tous les métrics
 
-
 #################### Lint ###########################
 Lint/UselessAssignment:
   Enabled: false                        # Pour pouvoir utiliser des variables que l'on n'utlise pas...(dans les fichiers .erb si on les utilises dans un autre bloc, il ne détecte pas..)
@@ -36,7 +35,7 @@ Layout/ExtraSpacing:
 Layout/LineLength: 
   Enabled: false                        # Pour ne limiter le nombre de caractères par ligne
 Layout/TrailingWhitespace:
-  Enabled: false                        # On veut pouvoir mettre plusieurs espaces entre les méthodes
+  Enabled: true                        # On ne veut pas de white spaces en fin de ligne
 Layout/EmptyLines:
   Enabled: false                        # On veut pouvoir mettre des lignes blanches comme on veut
 Layout/SpaceInsideBlockBraces:
