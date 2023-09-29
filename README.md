@@ -35,12 +35,8 @@ Now, RuboCop will use the configuration defined in this gem. You can override an
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at [https://github.com/IMMOSQUARE/immosquare-rubocop](https://github.com/IMMOSQUARE/immosquare-rubocop). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/IMMOSQUARE/immosquare-rubocop/blob/main/CODE_OF_CONDUCT.md).
+Contributions are welcome! Please open an issue or submit a pull request on our [GitHub repository](https://github.com/IMMOSQUARE/immosquare-rubocop).
 
 ## License
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-## Code of Conduct
-
-Everyone interacting in the IMMO SQUARE RuboCop Configuration project's codebases, issue trackers, chat rooms, and mailing lists is expected to follow the [code of conduct](https://github.com/IMMOSQUARE/immosquare-rubocop/blob/main/CODE_OF_CONDUCT.md).
+This gem is available under the terms of the [MIT License](https://opensource.org/licenses/MIT).

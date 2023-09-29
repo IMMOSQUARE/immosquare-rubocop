@@ -5,6 +5,7 @@ AllCops:
   UseCache:           true
   SuggestExtensions:  false
 
+
 #################### Metrics ###########################
 Metrics: 
   Enabled: false                        # On désactive tous les métrics
@@ -93,3 +94,7 @@ Style/WordArray:
   EnforcedStyle: brackets               # Pour formater les arrays de la forme ["a", "b", "c] et pas %w[a b c]
 Style/SymbolArray:
   EnforcedStyle: brackets               # Pour formater les arrays de la forme [:a, :b, :c] et pas %i[a b c]
+
+#################### GEM ###########################
+Gemspec/RequireMFA:
+  Enabled: false                        # On ne veut pas obliger le MFA pour pusher un gem
