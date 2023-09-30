@@ -20,6 +20,6 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = Gem::Requirement.new(">= 2.7.6")
   
-  spec.add_dependency("rubocop", "~> 1.56.3")
+  spec.add_dependency("immosquare-cleaner", "~> 0")
   
 end
